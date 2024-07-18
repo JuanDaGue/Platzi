@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-section img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold text-gray-800">
+                    MyWebsite
+                </div>
+                <div>
+                    <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">Home</a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">Features</a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">About</a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-blue-600">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://ui-avatars.com/api/?background=0D8ABC&amp;color=fff" alt="Hero Image">
+        <div class="container mx-auto px-6 py-20 text-center text-white relative z-10">
+            <h1 class="text-4xl font-bold">Welcome to MyWebsite</h1>
+            <p class="mt-4 text-lg">Your success starts here. Discover the amazing features we offer.</p>
+            <button class="mt-8 bg-white text-blue-600 font-semibold py-2 px-4 rounded">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800">Features</h2>
+            <p class="mt-4 text-gray-600">We offer a wide range of features to help you succeed.</p>
+            <div class="mt-10 flex flex-wrap justify-center">
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Feature One</h3>
+                        <p class="mt-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Feature Two</h3>
+                        <p class="mt-4 text-gray-600">Suspendisse varius enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold text-gray-800">Feature Three</h3>
+                        <p class="mt-4 text-gray-600">Donec ut diam nec urna blandit bibendum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="container mx-auto px-6 py-6 text-white text-center">
+            &copy; 2024 MyWebsite. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
