@@ -25,7 +25,7 @@
                     <img src="${item.snippet.thumbnails.high.url}" alt="${item.snippet.description}" class="w-full">
                 </div>
                 <div class="mt-4 flex justify-between">
-                    <h3 class="text-sm text-gray-700" style="color:white;">
+                    <h3 class="text-sm text-gray-700" style="color:gray;">
                         <span aria-hidden="true" class="absolute inset-0"></span>
                         ${item.snippet.title}
                     </h4>
