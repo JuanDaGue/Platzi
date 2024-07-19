@@ -3,7 +3,7 @@
 (async()=>{
     
     let content= document.querySelector('#content')
-    const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCw05fUBPwmpu-ehXFMqfdMw&part=snippet%2Cid&order=date&maxResults=9';
+    const url = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCdKj0VzVR0Af0wzd7-68Avw&part=snippet%2Cid&order=date&maxResults=9';
     const options = {
         method: 'GET',
         headers: {
